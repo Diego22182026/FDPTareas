@@ -1,2 +1,2 @@
 # FDPTareas
-Tareas de Fundamentos de Programaciones
+Tareas de Fundamentos de Programacion
