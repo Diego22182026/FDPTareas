@@ -19,7 +19,7 @@ int main () {
 
     if (edad >=18){
 
-        cout << "You are of legal age" << endl;
+        cout << "You are an adult" << endl;
     }
     else {
 
