@@ -16,6 +16,7 @@ int main (){
     
         return 1;
     }
+
     // Inicio del switch 
 
     switch (numero){
