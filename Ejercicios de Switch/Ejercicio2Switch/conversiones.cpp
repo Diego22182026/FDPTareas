@@ -3,18 +3,12 @@ using namespace std;
 
 int main (){
 
-    char o;
+    char num;
     float usd, eur, jpy, gpb;
     cout << "Por favor, selecciona una opcion: " << endl << endl << "1. USD A EUR" << endl << "2. USD A JPY" << endl << "3. USD a GPB" << endl;
-    cin >> o;
+    cin >> num;
 
-    if (o < 2 || o > 4){
-
-        cout << "Opcion no valida, elija una opcion del 1 al 3. " << endl;
-        return 1; //Salida temprana del programa si la opcion no es valida
-    }
-
-    switch (o){
+    switch (num){
 
         case '1':
         cout << "Ingresa el valor en USD" << endl;
@@ -44,6 +38,9 @@ int main (){
         gpb = usd * 0.74;
         cout << "Tu resultado es: " << gpb << "GPB" << endl;
         break;
+
+        default:
+        cout << "Opcion no valida, por favor ingrese un numero del 1 al 3." << endl;
     }
         return 0;
 }
